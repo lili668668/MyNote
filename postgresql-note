@@ -1,0 +1,3 @@
+sudo su -l postgres // login postgres
+psql // enter into postgres
+\q // leave postgres
