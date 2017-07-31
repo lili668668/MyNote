@@ -1,0 +1,6 @@
+dotnet new [app-type] -o [app-name] // new project
+dotnet restore // init project
+dotnet build // build project
+dotnet run // run project, if not build project, it will build it
+dotnet add package [Nuget-package-name] // Add a Nuget package
+dotnet test // new an unit test project
