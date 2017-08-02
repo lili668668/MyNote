@@ -4,3 +4,10 @@ dotnet build // build project
 dotnet run // run project, if not build project, it will build it
 dotnet add package [Nuget-package-name] // Add a Nuget package
 dotnet test // test unit test files
+
+// Add sql connect package
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+// connect pg
+dotnet ef dbcontext scaffold "Host=localhost;Database=abbyss;Username=abbyss;Password=valley" Npgsql.EntityFrameworkCore.PostgreSQL
