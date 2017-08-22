@@ -1,3 +1,5 @@
 sudo su -l postgres // login postgres
 psql // enter into postgres
 \q // leave postgres
+GRANT ALL PRIVILEGES ON TABLE [table name] TO [user name];
+psql user_name  -h 127.0.0.1 -d db_name
